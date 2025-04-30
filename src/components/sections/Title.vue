@@ -13,7 +13,7 @@ const title = 'Learn Weightlessness: Imitate Non-Self-Stabilizing Motions on Hum
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' (Vue based)'
+const title_supp = ''
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -25,18 +25,18 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Your Name",
-    icon: "./icon/junyaohu.jpg",
+    icon: "",
     homepage: "https://junyaohu.github.io/",
     address_flag: "1,#"
   },
   {
-    name: "Anya Forger",
+    name: "Your Name",
     icon: "./icon/anya.jpg",
     homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
     address_flag: "2,#"
   },
   {
-    name: "BugCat Capoo",
+    name: "Your Name",
     icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "1,*"
@@ -67,10 +67,12 @@ const con_and_corresponding_author =
 const news = "🔥 [2024-12-15] This template project is still under development."
 
 // 强调内容
+// const emphases = [
+//   "🎉 [ABCD 2024] Poster"
+// ]
 const emphases = [
-  "🎉 [ABCD 2024] Poster"
+  ""
 ]
-
 // 提供引导资料链接
 const buttons = [
   {
@@ -98,11 +100,11 @@ const buttons = [
   <div>
 
     <!-- 最新消息提示 -->
-    <el-row justify="center">
+    <!-- <el-row justify="center">
       <el-col :span="24">
         <el-alert title="🔥 This template is still under development." type="success" />
       </el-col>
-    </el-row>
+    </el-row> -->
 
     <!-- 文章logo -->
     <el-row v-if="logo" justify="center">
