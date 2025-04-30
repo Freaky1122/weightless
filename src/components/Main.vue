@@ -16,6 +16,7 @@ import Comment from './sections/Comment.vue'
 import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
+import Framework from './sections/Framework.vue'
 
 export default {
   components: {
@@ -31,6 +32,7 @@ export default {
     Echart,
     Collapse,
     Table,
+    Framework,
     SeletionForComparison,
     Comment,
     Latex,
@@ -42,20 +44,21 @@ export default {
 
 <template>
   <Title/>
-  <Carousel/>
+  <!-- <Carousel/> -->
   <Video/>
   <Abstract/>
+  <!-- <Framework/> -->
   <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
+  <!-- <Latex/> -->
+  <!-- <Table/> -->
+  <!-- <Collapse/> -->
+  <!-- <Echart/>
   <Model3D/>
   <GaussianSplats3D/>
-  <SeletionForComparison/>
-  <ImageSliderInner/>
+  <SeletionForComparison/> -->
+  <!-- <ImageSliderInner/>
   <ImageSlider/>
-  <ImageSelector/>
+  <ImageSelector/> -->
   <BibTeX/>
-  <Comment/>
+  <!-- <Comment/> -->
 </template>

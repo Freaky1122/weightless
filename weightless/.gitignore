@@ -14,8 +14,6 @@ dist-ssr
 coverage
 *.local
 
-weightless
-
 /cypress/videos/
 /cypress/screenshots/
 
@@ -28,4 +26,5 @@ weightless
 *.njsproj
 *.sln
 *.sw?
-yarn.lock
+
+*.tsbuildinfo

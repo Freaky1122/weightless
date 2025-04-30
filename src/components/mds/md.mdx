@@ -1,53 +1,10 @@
-# Markdown (H1)
+# Framework
 
-The render result of `md.mdx` is here.
+![](./my/framework.png)
 
-## Good (H2)
-
-### Nice (H3)
-
-[**Diffusion models**](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) are a class of generative models in machine learning that have gained significant attention in recent years. 
-
-**Text-to-image diffusion models** have various application scenarios, including:
-
-- **Art & Design**: Used by artists for creative art and fashion designers to generate clothing renderings.
-- **Advertising & Marketing**: Helps in creating advertising posters and product promotion maps.
-- **Game & Film**: Applied in game scene and character design, as well as film and television concept design...
-
-> Thegeneral training steps of diffusion models are as follows:
-
-1. Data collection
-2. Noise addition
-3. Model building
-4. Training
-5. Evaluation
-6. Deployment
+(a) Collect sitting motion datasets, apply motion retargeting, use sampling smoothing for low-quality data, and filter for imitable actions. (b) Label the robot's weightless state during data processing and train a weightlessness state policy network using an LSTM to determine weightless state based on historical and future pose trends. (c) Learn sitting action policy via imitation learning. (d) Integrate weightlessness policy network into imitation learning to fine-tune action policy, outputting zero torque for lower-limb joints in weightless state during environment updates. (e)(f) Validate action policy in MuJoCo environment and deploy algorithm on real robot.
 
 
-```
-import torch 
+# Experiments
+![](./my/result.png)
 
-def denoise():
-    pass
-```
-
-* [ ] to do
-* [x] done
-* [x] ~114514~
-
-![](./logo_vision_aigc.png)
-
-Lift ($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
-equation.
-
-$$
-L = \frac{1}{2} \rho v^2 S C_L
-$$
-
-
-### Table (H3)
-
-| a       | b       | c     |  d      |
-| -       | :-      | -:    | :-:     |
-| Alpha   | Bravo   | Alpha | Bravo   |
-| 中文    | Charlie | 👩‍❤️‍👩    | Delta   |
